@@ -1,0 +1,33 @@
+Test: Please kindly make the simple web site
+ 
+Please write ER diagram
+Please use to develop raw PHP or php framework like codeigniter,laravel. Do not use any type of CMS.
+ 
+Any format is okay like excel.
+We don't accept the query.
+ 
+Detail:
+ 
+Simple E-commerce web site.
+ 
+ [Administrator part]
+ - Product have "name", "description", "image x 5", "belonging category", "price" and "manufacture"
+ - Product have status of public or not.
+ - Administrator can add and remove manufactures in administrator tool. Product belong to manufacture but it is not required.
+ - Administrator can add and remove categories in administrator tool.
+ Every product can belong to multi category and should belong to one
+ category at least.
+ - Administrator can manage order.
+ - Order have status of "ordered", "preparing to deliver", "delivered".
+ - Administrator can cancel order.
+ 
+ [Front end]
+ 
+ - User can see list of product filtered by category or manufactures.
+ - User registration is need to buy something.
+ - User registration requires "Name", "Email address", "Address",
+ "Contact number" and "Password"
+ - Login form requires "Email address" and "Password"
+ - To buy some products, user put product in a cart.
+ - In cart user can set amount of product want to buy.
+ - Payment method can be select from "Bank transfer" or "Cash on delivery"
